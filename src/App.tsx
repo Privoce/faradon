@@ -109,7 +109,7 @@ export default function App() {
           <Logo />
           <nav className="nav-links" aria-label="Primary">
             <a href="#company">Company</a>
-            <a href="#product">Product</a>
+            <a href="#product">Products</a>
             <a href="#markets">Who we serve</a>
             <a href="#contact">Contact</a>
           </nav>
@@ -144,7 +144,7 @@ export default function App() {
             Company
           </a>
           <a href="#product" onClick={closeMenu}>
-            Product
+            Products
           </a>
           <a href="#markets" onClick={closeMenu}>
             Who we serve
@@ -215,7 +215,7 @@ export default function App() {
                 GridPilot
               </a>
               , turns an interconnection filing from a 4–8 week engagement into
-              one working session.
+              one working session. LoadPro, for large-load filings, is next.
             </p>
             <div className="hero-cta">
               <a
@@ -289,7 +289,8 @@ export default function App() {
                   <a href={GRIDPILOT} target="_blank" rel="noreferrer">
                     GridPilot
                   </a>{" "}
-                  is the product in market. Further products are in stealth.
+                  is in market. LoadPro — large-load filings — is coming next.
+                  Further products remain in stealth.
                 </p>
               </div>
             </Reveal>
@@ -300,12 +301,12 @@ export default function App() {
           <div className="wrap">
             <Reveal className="section-head">
               <div>
-                <p className="eyebrow">Product</p>
-                <h2>GridPilot</h2>
+                <p className="eyebrow">Products</p>
+                <h2>GridPilot and LoadPro</h2>
               </div>
               <p className="section-intro">
-                Interconnection requests, ready to file — Faradon&apos;s product
-                in market.
+                GridPilot is in market. LoadPro is next — large-load filings,
+                not yet public.
               </p>
             </Reveal>
 
@@ -350,9 +351,35 @@ export default function App() {
               </article>
             </Reveal>
 
+            <Reveal>
+              <article className="flagship coming">
+                <div className="flagship-media">
+                  <img
+                    src="/images/earth.jpg"
+                    alt="Earth at night, showing the load on the grid"
+                  />
+                  <span className="badge">Coming soon</span>
+                </div>
+                <div className="flagship-body">
+                  <p className="eyebrow">LoadPro</p>
+                  <h3>Large load filings, ready to file</h3>
+                  <p>
+                    Upload your documents. LoadPro writes the filing — AI-guided
+                    large-load interconnection for data centers and industrial
+                    offtake.
+                  </p>
+                  <ul className="checklist">
+                    <li>AI-guided large-load filing</li>
+                    <li>A Faradon product</li>
+                    <li>Not yet public</li>
+                  </ul>
+                  <p className="coming-note">Available when it ships.</p>
+                </div>
+              </article>
+            </Reveal>
+
             <p className="stealth-note">
-              Additional Faradon products are in stealth and will be announced
-              when they ship.
+              Additional Faradon products remain in stealth.
             </p>
           </div>
         </section>
@@ -365,8 +392,8 @@ export default function App() {
                 <h2>The teams who have to file on time.</h2>
               </div>
               <p className="section-intro light">
-                GridPilot is built for the teams who file interconnection
-                today — developers, storage, and the advisors who support them.
+                GridPilot serves developers, storage, and advisors today.
+                LoadPro is for large-load teams — coming soon.
               </p>
             </Reveal>
             <Reveal>
@@ -401,6 +428,15 @@ export default function App() {
                       Compress the hand-built packet engagement. Deliver SLD,
                       load-flow, and portal fields with an assumptions log a PE
                       can review.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>04</span>
+                  <div>
+                    <h3>Large-load &amp; data centers</h3>
+                    <p>
+                      LoadPro — AI-guided large-load filing. Coming soon.
                     </p>
                   </div>
                 </li>
@@ -508,15 +544,16 @@ export default function App() {
             <div>
               <p>Company</p>
               <a href="#company">About</a>
-              <a href="#product">Product</a>
+              <a href="#product">Products</a>
               <a href="#approach">How we work</a>
               <a href="#contact">Contact</a>
             </div>
             <div>
-              <p>GridPilot</p>
+              <p>Products</p>
               <a href={GRIDPILOT} target="_blank" rel="noreferrer">
-                Product home
+                GridPilot
               </a>
+              <span className="footer-quiet">LoadPro — coming soon</span>
               <a href={`${GRIDPILOT}#pricing`} target="_blank" rel="noreferrer">
                 Pricing
               </a>
@@ -532,6 +569,7 @@ export default function App() {
               <a href="#markets">Power developers</a>
               <a href="#markets">Storage &amp; hybrid</a>
               <a href="#markets">EPCs &amp; advisors</a>
+              <a href="#markets">Large load</a>
             </div>
             <div>
               <p>Legal</p>

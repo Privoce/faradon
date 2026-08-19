@@ -566,6 +566,10 @@ dd {
   border: 1px solid var(--line);
 }
 
+.flagship.coming {
+  margin-top: 1.15rem;
+}
+
 .flagship-media {
   position: relative;
   min-height: 22rem;
@@ -653,6 +657,12 @@ dd {
   background: var(--cream);
 }
 
+.coming-note {
+  margin-top: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--fog);
+}
+
 .stealth-note {
   margin: 1.5rem 0 0;
   padding-top: 1.25rem;
@@ -679,7 +689,7 @@ dd {
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .market-list li {
@@ -844,6 +854,13 @@ dd {
 
 .footer-cols a:hover {
   color: #fff;
+}
+
+.footer-quiet {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: rgba(244, 240, 231, 0.45);
+  font-size: 0.92rem;
 }
 
 .footer-bottom {
